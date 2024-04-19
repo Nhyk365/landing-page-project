@@ -11,18 +11,40 @@ body {
 
 a {
   text-decoration: none;
+  color: #e5e7eb;
+}
+button {
+  background-color: #3883f6;
+  color: #e5e7eb;
+  border-radius: 5px;
+  border: transparent;
+  padding: 5px 20px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #306fce;
+}
+.hero-button {
+  margin-top: 5px;
+}
+.sign-button {
+  border: #e5e7eb solid 2px;
 }
 
 .header {
-  border: 1px solid black;
-  padding: 0 50px;
+  background-color: #1f2937;
+  padding: 0 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
 ul {
-  border: 1px solid black;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -31,21 +53,94 @@ ul {
 }
 
 .hero {
-  border: 1px solid black;
+  padding: 80 150px;
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+  align-items: center;
+  justify-content: center;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.hero-header {
+  font-size: 48px;
+  font-weight: 800;
+}
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.hero-left {
+  width: 450px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: auto;
+  flex-grow: 1;
+}
+
+.hero-image {
+  width: 450px;
+  height: 300px;
+  flex-grow: 1;
+}
+
+.hero-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: top;
+  border-radius: 10px;
 }
 
 .info {
-  border: 1px solid black;
 }
 
 .quote {
-  border: 1px solid black;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 200px;
+}
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote-sign {
+  font-size: 30px;
+  align-items: flex-end;
+  margin-left: auto;
 }
 
 .sign {
-  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 150px;
+}
+
+.container {
+  background-color: #3883f6;
+  width: 100%;
+  color: #e5e7eb;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  border-radius: 5px;
 }
 
 .footer {
-  border: 1px solid black;
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
