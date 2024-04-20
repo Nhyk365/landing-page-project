@@ -54,7 +54,7 @@ ul {
 }
 
 .hero {
-  padding: 80 150px;
+  padding: 80px 150px;
   background-color: #1f2937;
   color: #f9faf8;
   display: flex;
@@ -75,6 +75,8 @@ ul {
 
 .hero-image {
   flex: 1;
+  height: 100%;
+  width: 100%;
 }
 
 .hero-image img {
